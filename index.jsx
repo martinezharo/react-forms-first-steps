@@ -70,7 +70,7 @@ export function EventRSVPForm() {
           <li>Number of attendees: {attendees}</li>
           <li>Dietary preferences: {preferences === ""
           ? "None"
-          : {preferences}
+          : preferences
           }</li>
           <li>Bringing additional guests: {guests
           ? "Yes"
