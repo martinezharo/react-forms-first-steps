@@ -11,7 +11,7 @@ export function EventRSVPForm() {
   const [submited, setSubmited] = useState(false)
 
   const handleClick = () => {
-    if (name !== "" || email !== "" || attendees < 1) {
+    if (name !== "" && email !== "" && attendees >= 1) {
       setSubmited(true)
       return
     }
