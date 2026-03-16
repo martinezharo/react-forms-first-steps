@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form, #msg {
+  width: 100%;
+  padding: 30px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 0 0 1px grey;
+  margin: 20px;
+
+  span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+button {
+  margin-top: 20px;
+}
